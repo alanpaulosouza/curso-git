@@ -1,0 +1,11 @@
+COMANDOS DO GIT
+
+git config --global > configurações
+git config -list > listar as configurações
+tree /f > visualização da pasta com arquivos
+dir > visualização de arquivos em uma pasta
+
+git init > inicializa o repositório
+git status > verificar o que está sendo obervado pelo git
+git add -A> adiciona/altera os arquivos
+git commit -m "mensagem" > da o commit nos arquivos
