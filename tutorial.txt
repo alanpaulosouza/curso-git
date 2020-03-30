@@ -9,3 +9,45 @@ git init > inicializa o repositório
 git status > verificar o que está sendo obervado pelo git
 git add -A> adiciona/altera os arquivos
 git commit -m "mensagem" > da o commit nos arquivos
+git log > visualiza versões
+
+
+git reset --hard > volta tudo
+	  --soft > volta mas preparado para commit
+	  --mixed > volta mas sem preparação, precisa dar add
+
+git branch > mostra os branch que estamos trabalhando
+git branc exemplo > como adicionar um novo branch
+git checkout exemplo > muda para o branch desejado
+
+git diff > detalha exatamente o que foi feito em um arquivo
+git diff --name-only > mostra os arquivos que foram alterados
+git checkout HEAD -- nome_do_arquivo > volta somente o arquivo desejado
+
+git remote add origin https://github.com/alanpaulosouza/curso-git.git > adicionar um repositório remoto
+git push -u origin master > enviando o repositório local para o remoto
+git push origin master > atualizar o repositório remoto 
+
+git revert --no-edit numero_do_commit_que-quero_tirar > reverter um commit e mante-lo
+
+git push origin :nome_branch > deletar um branch remoto
+git branch -D teste2 > deletar um branch local
+
+git pull origin master > atualizar/trazer os arquivos do remoto para o local
+
+git clone link_do_repositório_remoto > clona o projeto completo do remoto para o local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
